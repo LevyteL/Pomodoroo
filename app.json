@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "pomodoro",
+    "slug": "pomodoro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../pomodoro/assets/logo1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0efd40d0-c5a6-42c5-afa6-1c49feb2098f"
+      }
+    }
+  }
+}
